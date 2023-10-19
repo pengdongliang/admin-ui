@@ -1,0 +1,14 @@
+<link rel="shortcut icon" href="../stories/assets/favicon.ico">
+<script>
+  // noinspection JSVoidFunctionReturnValueUsed
+  var observer = new MutationObserver(function(mutations) {
+    if (document.title.match(/Storybook$/)) {
+      document.title = 'Admin-ui'
+    }
+    document.querySelector('.sidebar-header>div>a').innerHTML = 'Admin-ui'
+  }).observe(document.querySelector('title'), {
+    childList: true,
+    subtree: true,
+    characterData: true,
+  })
+</script>

@@ -1,0 +1,19 @@
+{
+  "extends": "./dev-config/ts-config/ts-config.json",
+  "paths": {
+    "@/*": [
+      "packages/*"
+    ],
+    "@dev/*": [
+      "dev-config/*"
+    ],
+    "~/*": [
+      "*"
+    ]
+  },
+  "baseUrl": ".",
+  "include": [
+    "**/*",
+    "**/*.json"
+  ]
+}
