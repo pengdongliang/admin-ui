@@ -14,8 +14,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/storybook-static/
+storybook-static/
 /storybook-static.zip
+.turbo
 
 # IDEs and editors
 .idea
